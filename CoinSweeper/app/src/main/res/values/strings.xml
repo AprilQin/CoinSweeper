@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">CoinSweeper</string>
+    <string name="coin_sweeper">Coin Sweeper</string>
+    <string name="game_information">Game Information</string>
+    <string name="about_the_authors">About the authors</string>
+    <string name="please_select_an_option">Please select an option</string>
+    <string name="homepage276"><a href="http://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html">About-the-author</a></string>
+    <string name="april_qin">April Qin</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="play_game">Play</string>
+    <string name="option">Option</string>
+    <string name="help">help</string>
+    <string name="kyle_cheng">Kyle Cheng</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="touch_screen_to_skip">Touch Screen to Skip</string>
+    <string name="rows">rows</string>
+    <string name="columns">columns</string>
+    <string name="enter_number_of_coins">Enter number of coins</string>
+    <string name="enter_number_of_rows">Enter number of rows</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter">Enter</string>
+    <string name="enter_number_of_columns">Enter number of columns</string>
+    <string name="coins">coins</string>
+    <string name="number_of_scans_performed">Number of Scans performed</string>
+    <string name="initial">0</string>
+    <string name="coins_found">Coins found</string>
+    <string name="references">References</string>
+
+    <string name="brick"><a href="https://goo.gl/1wpmQ0">brick.png</a></string>
+    <string name="coin"><a href="https://goo.gl/Fdgmvu">coin.png</a></string>
+    <string name="coin_second"><a href="https://goo.gl/R6Kdlw">coin_second.png</a></string>
+    <string name="fly_mario"><a href="https://goo.gl/LHCn80">fly_mario.png</a></string>
+    <string name="mario_background"><a href="https://goo.gl/6lSTah">mario_background.png</a></string>
+    <string name="mario_welcome"><a href="https://goo.gl/3Ehkyy">mario_welcome.jpg</a></string>
+    <string name="moving_background"><a href="https://goo.gl/Tqx48G">moving_background.gif</a></string>
+    <string name="wing_block"><a href="https://goo.gl/T3X3ME">wing_block.png</a></string>
+
+    <string name="brick_sound"><a href="https://goo.gl/P5fh5I">brick_sound.mp3</a></string>
+    <string name="coin_sound"><a href="https://goo.gl/9ZoQM0">coin_sound.mp3</a></string>
+    <string name="win_sound"><a href="https://goo.gl/CXXbUQ">win_sound.mp3</a></string>
+
+    <string name="game_description">
+        "       Coin Sweeper is inspired by the world famous Minesweeper puzzle game, but instead of sweeping mines, the player gets to find coins while role playing as one of the iconic Nintendo characters, Mario.
+        In this game, the player smashes a block to see whether it contains a coin. If it turns out to be a brick, there will be a number displayed on it, representing how many coins there are left hidden in the same row and column.
+        Try to find all the coins based on the given information without smashing into too many bricks and making Mario's head hurt!"
+    </string>
+    <string name="out_of">Out of</string>
+    <string name="total_num_of_coins">0</string>
+
+
+</resources>

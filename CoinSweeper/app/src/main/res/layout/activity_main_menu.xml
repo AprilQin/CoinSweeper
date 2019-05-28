@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/moving_background"
+    tools:context="com.example.ak.coinseeker.Main_menu">
+
+    <Button
+        android:text="@string/option"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:id="@+id/configuration"
+        android:layout_below="@+id/play_game"
+        android:layout_alignLeft="@+id/play_game"
+        android:layout_alignStart="@+id/play_game"
+        android:layout_marginTop="7dp"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:text="@string/coin_sweeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Select_option"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:text="@string/play_game"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:id="@+id/play_game"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/Select_option"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-medium" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fly_mario"
+        android:id="@+id/mario"
+        android:layout_toLeftOf="@+id/Select_option"
+        android:layout_toStartOf="@+id/Select_option"
+        android:layout_alignBottom="@+id/configuration"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/fly_mario" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/coin"
+        android:id="@+id/coin"
+        android:layout_alignParentTop="@+id/play_game"
+        android:layout_alignRight="@+id/help"
+        android:layout_marginBottom="54dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="34dp"
+        android:contentDescription="@string/coin" />
+
+    <Button
+        android:text="@string/help"
+        android:layout_width="170dp"
+        android:layout_height="65dp"
+        android:id="@+id/help"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/configuration"
+        android:layout_alignLeft="@+id/configuration"
+        android:layout_alignStart="@+id/configuration"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif-medium" />
+
+</RelativeLayout>

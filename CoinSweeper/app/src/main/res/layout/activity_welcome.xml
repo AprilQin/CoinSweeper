@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="com.example.ak.coinseeker.Welcome">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/mario_welcome"
+        android:contentDescription="@string/mario_welcome" />
+
+    <TextView
+        android:text="@string/touch_screen_to_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hint_message"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/kyle_cheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AuthorID1"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_above="@+id/AuthorID2"
+        android:layout_alignRight="@+id/DeveloperID"
+        android:layout_alignEnd="@+id/DeveloperID" />
+
+    <TextView
+        android:text="@string/april_qin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AuthorID2"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/AuthorID1"
+        android:layout_alignEnd="@+id/AuthorID1" />
+
+    <TextView
+        android:text="@string/coin_sweeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Name_of_application"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_marginTop="69dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Hint_message"
+        android:layout_alignEnd="@+id/Hint_message"
+        android:shadowColor="#000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="35"
+        />
+
+    <TextView
+        android:text="@string/developed_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeveloperID"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="top"
+        android:visibility="visible"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_above="@+id/AuthorID1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
